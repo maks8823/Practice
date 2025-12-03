@@ -1,3 +1,5 @@
+
+```bash
 git init
 git remote add origin https://github.com/maks8823/Practice.git
 git remote -v
