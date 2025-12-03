@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 git init
 git remote add origin https://github.com/maks8823/Practice.git
 git remote -v
@@ -83,4 +82,3 @@ git add .
 git commit -m "homework-8"
 git push origin homework-8
 git checkout main
->>>>>>> 53706f030be820b94f9165688dd9b6a0c268f340
