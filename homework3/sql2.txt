@@ -1,0 +1,11 @@
+SELECT 
+    SUBSTRING(phone, 1, 3) AS first_three_digits
+FROM Employees
+WHERE phone LIKE '___.___.____'
+  AND LENGTH(phone) = 12;
+
+
+SELECT 
+    SUBSTRING_INDEX(name, ' ', 1) AS first_word
+FROM Departments
+WHERE name LIKE '% %';
